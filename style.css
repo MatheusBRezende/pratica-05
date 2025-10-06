@@ -1,4 +1,4 @@
-/* styles.css - Versão melhorada */
+
 :root {
   --primary-color: #3b82f6;
   --primary-dark: #2563eb;
@@ -47,7 +47,7 @@ body {
   padding: 0 20px;
 }
 
-/* Header Styles */
+
 header {
   background-color: var(--white);
   box-shadow: var(--shadow-sm);
@@ -130,7 +130,7 @@ nav ul li a:hover::after {
   color: var(--primary-color);
 }
 
-/* Hero Section */
+
 .hero {
   min-height: 100vh;
   display: flex;
@@ -251,7 +251,7 @@ nav ul li a:hover::after {
   color: var(--accent-color);
 }
 
-/* Button Styles */
+
 .btn {
   display: inline-block;
   padding: 14px 32px;
@@ -290,7 +290,7 @@ nav ul li a:hover::after {
   box-shadow: 0 6px 20px rgba(59, 130, 246, 0.25);
 }
 
-/* Section Titles */
+
 .section-title {
   text-align: center;
   margin-bottom: 60px;
@@ -318,7 +318,7 @@ nav ul li a:hover::after {
   border-radius: 2px;
 }
 
-/* Projects Section */
+
 .projects {
   padding: 100px 0;
   background-color: var(--white);
@@ -440,7 +440,7 @@ nav ul li a:hover::after {
   border: 1px solid #dbeafe;
 }
 
-/* About Section */
+
 .about {
   padding: 100px 0;
   background-color: var(--light-color);
@@ -516,7 +516,7 @@ nav ul li a:hover::after {
   transition: width 1s ease;
 }
 
-/* Seção de contato completamente reformulada - formulário centralizado e organizado */
+
 .contact {
   padding: 100px 0;
   background: linear-gradient(135deg, #f0f9ff 0%, #ffffff 100%);
@@ -536,7 +536,7 @@ nav ul li a:hover::after {
   margin: 0 auto;
 }
 
-/* Formulário centralizado e organizado */
+
 #contactForm {
   background-color: var(--white);
   padding: 50px;
@@ -591,7 +591,7 @@ nav ul li a:hover::after {
   padding: 16px 32px;
 }
 
-/* Informações de contato centralizadas */
+
 .contact-info {
   background-color: var(--white);
   padding: 40px;
@@ -663,7 +663,7 @@ nav ul li a:hover::after {
   box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
 }
 
-/* Notification Popup Styles */
+
 .notification-popup {
   position: fixed;
   top: 0;
@@ -733,7 +733,7 @@ nav ul li a:hover::after {
   gap: 10px;
 }
 
-/* Footer */
+
 footer {
   background-color: var(--dark-color);
   color: var(--white);
@@ -819,7 +819,7 @@ footer p {
   animation-delay: 0.8s;
 }
 
-/* Responsive Styles */
+ 
 @media screen and (max-width: 992px) {
   .hero .container {
     flex-direction: column;
